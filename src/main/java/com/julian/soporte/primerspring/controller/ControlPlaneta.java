@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value="/index/")
-//@CrossOrigin("*")
+
 //@CrossOrigin(origins="http://localhost:8081")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class ControlPlaneta {
